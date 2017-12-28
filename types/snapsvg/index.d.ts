@@ -267,8 +267,8 @@ declare namespace Snap {
         g(varargs?:any):Snap.Paper;
         group(...els:any[]):Snap.Paper;
         mask(varargs:any):Object;
-        ptrn(x:number,y:number,width:number,height:number,vbx:number,vby:number,vbw:number,vbh:number):Object;
-        svg(x:number,y:number,width:number,height:number,vbx:number,vby:number,vbw:number,vbh:number):Object;
+        ptrn(x:number,y:number,width:number,height:number,vbx:number,vby:number,vbw:number,vbh:number):Snap.Paper;
+        svg(x:number,y:number,width:number,height:number,vbx:number,vby:number,vbw:number,vbh:number):Snap.Paper;
         toDataUrl(): string;
         toString():string;
         use(id?:string):Object;
